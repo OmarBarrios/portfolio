@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>{{titulo}}</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        {{> header }} 
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Omar Barrios</span><br> Web Designer</h1>
+
+                    <a href="#contact" class="button">Contact</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://github.com/OmarBarrios" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://gitlab.com/omar.barrios" class="home__social-icon"><i class='bx bxl-gitlab' ></i></a>
+                    <a href="https://github.com/OmarBarrios" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">    
+                    <img src="assets/img/perfil.jpg" alt="">
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/about.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'am Omar Barrios</h2>
+                        <p class="about__text">Freelance web developer based in Santander, Spain. Experience designing and developing websites in Nodejs with Express.</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 skills__icon'></i>
+                                <span class="skills__name">HTML5</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-css3 skills__icon'></i>
+                                <span class="skills__name">CSS3</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">70%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript skills__icon' ></i>
+                                <span class="skills__name">JAVASCRIPT</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">65%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <img class="skills__icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAATlJREFUSEvtk9FNw0AQBScVAB3QAekAqCBQAaQDqACoADoIVAAdJKkgpINQAVABaKxd6TARF4P8RU6yLPt29703Zw/oeQ16ns9WoEr4fyG6Aw6A4yqXoqALog9gCQz/IpAuc8YbcAnsAgvA5+fYnAE3gHfFc62ix9pv/4HNYrBRpyPABp8nkcBG93YC1xR4Ae6Bk+hXtEHZRtTGYOFhCFxFk+/SiOluY/86ImSaZnYpcATo5gE4DyyvwHsMVGgvMKURhc6AU+ApEjyWZ1UKXIQbkXjtxzUGPBvR+K40IiqRisdzcs97Cn5JYJFu/FKaA4rBItGdbjXhEHFY77lkQuvt04w9zSoTJO/EUPsaM8k8RNfWtwV04JewybLORCbxqgpsMrRzTZc/ufPwdf/Br4b81LRNUEXaO6JPNhZJGdSwgKIAAAAASUVORK5CYII="/>
+                                <span class="skills__name">PHP</span>
+                            </div>
+                            <div class="skills__bar skills__php">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">45%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name">MYSQL</span>
+                            </div>
+                            <div class="skills__bar skills__mysql">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">50%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <img class="skills__icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAUZJREFUSEvllDEyBUEURc/PiAiFMikrQCzACrADW7AClsAOCMS+HbADVoCIjDpVr6f6z++Z6vbrB8qrmurpme5737vvdk9YckyWjM//I9gDvoHHWmlbJRLcqN5XvTCApzFaSVWMEQi2C9wAJyGLc2MHeMoYtnvz7lcNgXoLnEY37wOpGucvwANw1i+rT2Aml8AzsAmsZcASpCbfAwdR3S3wFsDHQdZV1ycQwEzybEsVJNkugKuMIBVggiY744ZTYAvYAL5i5Uq856O/PoFV4D2ec2A99nwAYlnZDEGyYJU7CoteA1h5JJ7z86IENvh6rMmWdPjL9DvNxwjUUQe1hpprjvxcFM+BTdLPWrMlitKUeuA3reUBqiGxqUdDmQ8R+N0DplxarUR0Fxaca2ip7JrLLl1syufTFDUETYBjLloIaGjz36/gB//nPxmJz2pkAAAAAElFTkSuQmCC"/>
+                                <span class="skills__name">DOCKER</span>
+                            </div>
+                            <div class="skills__bar skills__docker">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">40%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-git skills__icon'></i>
+                                <span class="skills__name">GIT</span>
+                            </div>
+                            <div class="skills__bar skills__git">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Frameworks --> 
+                    <div>
+                        <p class="skills__text"></p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-nodejs skills__icon'></i>
+                                <span class="skills__name">Nodejs</span>
+                            </div>
+                            <div class="skills__bar skills__nodejs">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">80%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name">Laravel</span>
+                            </div>
+                            <div class="skills__bar skills__laravel">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">40%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name">Express</span>
+                            </div>
+                            <div class="skills__bar skills__express">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name">Lumen</span>
+                            </div>
+                            <div class="skills__bar skills__lumen">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">35%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name">MONGODB</span>
+                            </div>
+                            <div class="skills__bar skills__mongodb">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">50%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name">RABBITMQ</span>
+                            </div>
+                            <div class="skills__bar skills__rabbitmq">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">45%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Work</h2>
+
+                <div class="work__container bd-grid">
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bx-loader-circle skills__icon'></i>
+                            <span class="skills__name">SCRUM</span>
+                        </div>
+                        <div class="skills__bar skills__scrum">
+                            
+                        </div>
+                        <div>
+                            <span class="skills__percentage">100%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bx-code-alt skills__icon'></i>
+                            <span class="skills__name">CLEAN-ARQUITECTURE</span>
+                        </div>
+                        <div class="skills__bar skills__clean-arquitecture">
+                            
+                        </div>
+                        <div>
+                            <span class="skills__percentage">90%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bx-code-alt skills__icon'></i>
+                            <span class="skills__name">DDD</span>
+                        </div>
+                        <div class="skills__bar skills__ddd">
+                            
+                        </div>
+                        <div>
+                            <span class="skills__percentage">85%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-user-check skills__icon'></i>
+                            <span class="skills__name">BEST PRACTICES</span>
+                        </div>
+                        <div class="skills__bar skills__best-practices">
+                            
+                        </div>
+                        <div>
+                            <span class="skills__percentage">100%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bx-code-curly skills__icon'></i>
+                            <span class="skills__name">API REST</span>
+                        </div>
+                        <div class="skills__bar skills__api-rest">
+                            
+                        </div>
+                        <div>
+                            <span class="skills__percentage">100%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bx-infinite skills__icon' ></i>
+                            <span class="skills__name">DEVOPS</span>
+                        </div>
+                        <div class="skills__bar skills__devops">
+                            
+                        </div>
+                        <div>
+                            <span class="skills__percentage">90%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-network-chart skills__icon'></i>
+                            <span class="skills__name">TEAM WORK</span>
+                        </div>
+                        <div class="skills__bar skills__trabajo">
+                            
+                        </div>
+                        <div>
+                            <span class="skills__percentage">100%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-extension skills__icon'></i>
+                            <span class="skills__name">ORGANIZATION</span>
+                        </div>
+                        <div class="skills__bar skills__organization">
+                            
+                        </div>
+                        <div>
+                            <span class="skills__percentage">100%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bx-bulb skills__icon'></i>
+                            <span class="skills__name">INITIATIVE</span>
+                        </div>
+                        <div class="skills__bar skills__initiative">
+                            
+                        </div>
+                        <div>
+                            <span class="skills__percentage">100%</span>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </section>
+
+            <!--===== CONTACT =====-->
+            {{> contact }}
+
+        </main>
+
+        <!--===== FOOTER =====-->
+        {{> footer }} 
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
